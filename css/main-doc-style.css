@@ -1,0 +1,62 @@
+body{
+  font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+header{
+  /*margin:auto;*/
+  text-align: center;
+}
+header h1,header h5{
+  margin: 10px;
+}
+table{
+  margin:auto;
+}
+td{
+  background: #CCC;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+td.undone:hover{
+  opacity: 0.7;
+}
+
+.chess{
+  border: 1px;
+  border-radius: 40px;
+}
+.white{
+  background: #ff7f7f;
+}
+
+.black{
+  background: #000;
+}
+.button-group{
+  margin-top: 2%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.button-group a{
+  cursor: pointer;
+  color: #333;
+  background: #FD9B96;
+  padding: 10px 15px;
+  border: 1px;
+  border-radius: 5px;
+}
+.button-group a:hover{
+  background: #E89089;
+}
+.main{
+
+}
+#canvasBoard{
+
+  /*border: 2px solid #CCC;*/
+  margin: auto;
+  display: block;
+}
+
